@@ -1,0 +1,13 @@
+feb 15
+
+html attributes
+html forms
+
+css basic styling
+css box model
+css flexbox and gridbox
+
+js form hanlding
+
+angular - code evolution
+api - angular project

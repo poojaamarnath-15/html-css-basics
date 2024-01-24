@@ -1,0 +1,30 @@
+<style>
+    div{
+        background-color:blueviolet;
+        width: 200px;
+        height:100px;
+        transition:5s;
+    
+    }
+    .widthmin{
+        width:400px;
+        height: 900px;
+    }
+    
+    
+
+</style>
+
+<div id="box">HELLO</div>
+<button onclick="change()">change color</button>
+
+<script>
+    //select box
+
+    var box=document.getElementById("box")
+    function change()
+    {
+     box.setAttribute("class","widthmin")   
+     box.style.backgroundColor="yellow"
+    }
+</script>
